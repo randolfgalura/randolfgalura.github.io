@@ -1,0 +1,155 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to top left, #554AD4, #E6865D);
+}
+
+.circle {
+  width: 240px;
+  height: 240px;
+  border: 5px solid black;
+  color: black;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  background-image: linear-gradient(to right, #A6A6A6, #FFFFFF);
+}
+
+.text {
+  color: #000;
+  font-size: 64px;
+  font-family: impact;
+  text-align: center;
+  text-shadow: -2px 5px #fff;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #E6DCDC;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.card-title {
+  font-family: impact;
+  font-size: 65px;
+  margin-top: 15px;
+  text-align: center;
+}
+.card-text {
+  font-family: Oswald;
+  align-self: center;
+  font-size: 23px;
+  margin-bottom: 45px;
+  margin-top: 25px;
+}
+
+.btn {
+  margin-bottom: 3%;
+  width: 70%;
+  font-size: 275%;
+  border-radius: 25px;
+  font-family: Oswald;
+  background-image: linear-gradient(to right, #8C52FF, #00BF63);
+}
+
+.book {
+  display: block;
+  margin: 0 auto;
+  width: 175px;
+}
+
+.line-arrow {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 20px;
+}
+.line-arrow i, .line-arrow .line {
+  display: inline-block;
+}
+.line-arrow i {
+  font-size: 25px;
+  -webkit-text-stroke: 3px;
+}
+.line-arrow .line {
+  border: 2px solid;
+  width: 90%;
+  vertical-align: middle;
+  margin-left: -20px;
+  margin-top: -11px;
+}
+.line-arrow .bi-chevron-right {
+  margin-left: -20px;
+}
+.line-arrow .bi-chevron-left {
+  margin-left: 1%;
+  padding-left: 2%;
+}
+
+.line-project {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.line-project .vertical-line {
+  border: 2px solid;
+  transform: rotate(90deg);
+  margin-left: 20px;
+  font-size: 70%;
+}
+.line-project .vertical-line-right {
+  border: 2px solid;
+  transform: rotate(90deg);
+  font-size: 70%;
+  margin-right: 20px;
+}
+.line-project .horizontal-line {
+  display: inline-block;
+  border: 2px solid;
+  width: 17%;
+  margin-bottom: 3px;
+}
+@media (min-width: 768px) {
+  .line-project .horizontal-line {
+    width: 31%;
+  }
+}
+@media (min-width: 1024px) {
+  .line-project .horizontal-line {
+    width: 35%;
+  }
+}
+.line-project .text-line {
+  font-family: Josefin Sans;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 4px;
+  -webkit-text-stroke: 1px;
+}
+
+.picture1 {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.picture2 {
+  width: 50px;
+}
+
+.picture3 {
+  width: 50px;
+}
+
+.pictures {
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 20px;
+  column-gap: 35px;
+}
+
+/*# sourceMappingURL=letslearn.css.map */
